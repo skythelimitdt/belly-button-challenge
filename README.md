@@ -25,3 +25,16 @@ The dataset reveals that a small handful of microbial species (also called opera
 - Update the webpage when a new ID is selected from the dropdown
 
 [Click Here to See The Webpage](https://skythelimitdt.github.io/belly-button-challenge)
+
+#### References
+chatgpt: <br>
+Filter the samples for the object with the desired sample number <br>
+let sampleData=metadata.filter((item) => item.id === parseInt(sample))[0];
+    let sampleId=samples.filter((item) => item.id === sample.toString())[0];
+Demographics information did not show properly because "id" in names element was string but "id" in metadata element was integer.After fixing with the code from chargpt, Demographics information showed properly
+chatgpt: <br>
+.map function help:
+let sortedData = sampleValues
+      .map((value, index) => ({ value, label: otuLabels[index], id: otuIds[index] }))
+      .slice(0, 10) // Get the top 10 values
+      .sort((a, b) => a.value - b.value);
