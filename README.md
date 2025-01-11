@@ -31,10 +31,11 @@ chatgpt: <br>
 Filter the samples for the object with the desired sample number <br>
 let sampleData=metadata.filter((item) => item.id === parseInt(sample))[0];
     let sampleId=samples.filter((item) => item.id === sample.toString())[0];
-Demographics information did not show properly because "id" in names element was string but "id" in metadata element was integer.After fixing with the code from chargpt, Demographics information showed properly
+Demographics information did not show properly because "id" in names element was string but "id" in metadata element was integer.After fixing with the code from chargpt, Demographics information showed properly </br>
 chatgpt: <br>
 .map function help:
 let sortedData = sampleValues
       .map((value, index) => ({ value, label: otuLabels[index], id: otuIds[index] }))
       .slice(0, 10) // Get the top 10 values
       .sort((a, b) => a.value - b.value);
+</br>
