@@ -1,7 +1,18 @@
-## Background
-You will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](https://robdunnlab.com/projects/belly-button-biodiversity) to an external site., which catalogs the microbes that colonize human navels.
+## Belly Button Biodiversity
 
-The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+### Project Overview
+
+This project explores the microbial diversity found in human belly buttons by analyzing data from the [Belly Button Biodiversity dataset](https://robdunnlab.com/projects/belly-button-biodiversity)study. The dataset catalogs various bacterial species—referred to as operational taxonomic units (OTUs)—that colonize the human navel.
+
+Through this analysis, we uncover patterns in microbial presence, revealing that while a few dominant species appear in over 70% of participants, most bacterial species are relatively rare.
+
+To make these findings more accessible, I am developing an interactive dashboard that allows users to explore:
+
+- Demographic information of study participants
+- The top 10 most abundant bacterial species found in each individual
+- The overall distribution of bacteria across subjects
+
+This project provides a unique insight into the hidden microbial world within us, helping to illustrate the diversity of bacteria that naturally exist on human skin.
 
 ### Instructions
 - Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
@@ -25,6 +36,11 @@ The dataset reveals that a small handful of microbial species (also called opera
 - Update the webpage when a new ID is selected from the dropdown
 
 [Click Here to See The Webpage](https://skythelimitdt.github.io/belly-button-challenge)
+
+### Tech Stack
+- HTML and Javascript
+- d3 library
+- Plotly
 
 #### References
 chatgpt: <br>
