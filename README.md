@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-This project explores the microbial diversity found in human belly buttons by analyzing data from the [Belly Button Biodiversity dataset](https://robdunnlab.com/projects/belly-button-biodiversity)study. The dataset catalogs various bacterial species—referred to as operational taxonomic units (OTUs)—that colonize the human navel.
+This project explores the microbial diversity found in human belly buttons by analyzing data from the [Belly Button Biodiversity dataset](https://robdunnlab.com/projects/belly-button-biodiversity). The dataset catalogs various bacterial species—referred to as operational taxonomic units (OTUs)—that colonize the human navel.
 
 Through this analysis, we uncover patterns in microbial presence, revealing that while a few dominant species appear in over 70% of participants, most bacterial species are relatively rare.
 
